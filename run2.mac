@@ -1,0 +1,12 @@
+/run/initialize
+/run/beamOn 100000
+
+/gps/particle ion
+/gps/ion 95 241
+/gps/energy 0. eV
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+/gps/pos/type Plane
+/gps/pos/shape Circle
+/gps/pos/centre 0 0 -8 mm
+/gps/pos/radius 10 mm
+/gps/number 1
